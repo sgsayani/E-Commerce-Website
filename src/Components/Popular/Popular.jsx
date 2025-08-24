@@ -1,6 +1,6 @@
 import React from 'react'
-import data_product from '../Assets/data'   // adjust path to where your data file is
-import Item from '../Item/Item'                // adjust path to your Item component
+import data_product from '../Assets/data'   
+import Item from '../Item/Item'                
 import './Popular.css'
 const Popular = () => {
   return (
