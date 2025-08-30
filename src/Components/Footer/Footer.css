@@ -4,9 +4,11 @@
     justify-content: center;
     align-items: center;
     gap:50px;
+    padding:70px 13px;
+    margin-left:120px;
 }
 .footer-logo{
-    display:flex;
+    display:ruby;
     align-items: center;
     gap:20px;
 }
@@ -21,19 +23,23 @@
     gap:50px;
     color:#252525;
     font-size:20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .footer-links li{
     cursor: pointer;
 }
 .footer-socials-icons{
     display:flex;
-    gap:20px;
+    gap:8px;
+    margin-left:35px;
 }
 .footer-icons-container{
     padding:10px;
     padding-bottom:6px;
     background:#fbfbfb;
     border:1px solid #ebebeb;
+    border-radius:10px;
 }
 .footer-copyright{
     display:flex;
