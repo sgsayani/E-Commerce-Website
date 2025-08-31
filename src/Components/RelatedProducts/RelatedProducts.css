@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap:10px;
-    height: 90vh;
+    margin-bottom:100px;
 }
 .relatedproducts h1{
     color:#171717;
@@ -20,4 +20,205 @@
     margin-top: 50px;
     display: flex;
     gap:30px;
+}
+
+@media(max-width:1280px){
+    .relatedproducts{
+        margin:0px 60px;
+    }
+    .relatedproducts-left{
+        gap:10px;
+    }
+    .relatedproducts-img-list{
+        gap:10px;
+    }
+    .relatedproducts-img-list img{
+        height: 120px;
+    }
+    .relatedproducts-main-img{
+        width:auto;
+        height:510px;
+    }
+    .relatedproducts-right{
+        margin:0px 30px;
+    }
+    .relatedproducts-right h1{
+        font-size:30px;
+    }
+    .relatedproducts-right-stars{
+        font-size:13px;
+        gap:3px;
+    }
+    .relatedproducts-right-prices{
+        font-size:18px;
+        margin:10px 0px
+    }
+    .relatedproducts-right-description{
+        font-size:13px;
+    }
+    .relatedproducts-right-size h1{
+        margin-top:20px;
+        font-size:20px;
+    }
+    .relatedproducts-right-sizes{
+        padding:14px 20px;
+    }
+    .relatedproducts-right button{
+        width:150px;
+        padding:15px 0px;
+        margin-bottom:20px;
+    }
+    .relatedproducts-right-category{
+        margin-top:5px;
+        font-size:14px;
+    }
+
+}
+
+
+@media(max-width:1024px){
+    .relatedproducts{
+        margin:0px 30px;
+    }
+    .relatedproducts-left{
+        gap:5px;
+    }
+    .relatedproducts-img-list{
+        gap:10px;
+    }
+    .relatedproducts-img-list img{
+        height: 80px;
+    }
+    .relatedproducts-main-img{
+        height:350px;
+    }
+    .relatedproducts-right h1{
+        font-size:18px;
+    }
+    .relatedproducts-right-stars img{
+        width:15px;
+    }
+    .relatedproducts-right-description{
+        font-size:12px;
+    }
+    .relatedproducts-right-sizes{
+        margin:10px 0px;
+    }
+    .relatedproducts-right-sizes div{
+        padding:10px 16px;
+        font-size:12px;
+    }
+    .relatedproducts-right button{
+        width:120px;
+        padding:10px 0px;
+        margin-bottom:10px;
+        font-size:14px;
+    }
+    .relatedproducts-right-category{
+        font-size:12px;
+    }
+
+}
+
+
+@media(max-width:800px){
+    .relatedproducts{
+        margin:0px 10px;
+    }
+    .relatedproducts-left{
+        gap:0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .relatedproducts-img-list{
+        flex-direction: row;
+        gap:6px;
+    }
+    .relatedproducts-img-list{
+        gap:10px;
+    }
+    .relatedproducts-img-list img{
+        height: 70px;
+    }
+    .relatedproducts-main-img{
+        height:300px;
+    }
+    .relatedproducts-right h1{
+        font-size:14px;
+    }
+    .relatedproducts-right-stars img{
+        width:13px;
+    }
+    .relatedproducts-right-description{
+        font-size:10px;
+    }
+    .relatedproducts-right-size h1{
+        margin-top:10px 0px;
+    }
+    .relatedproducts-right-sizes{
+        margin:10px;
+        gap:5px;
+    }
+    .relatedproducts-right-sizes div{
+        padding:4px 11px;
+    }
+    .relatedproducts-right button{
+        width:100px;
+        font-size:12px;
+    }
+    .relatedproducts-right-category{
+        font-size:10px;
+    }
+
+}
+@media(max-width:500px){
+    .relatedproducts{
+        flex-direction: column;
+    }
+    .relatedproducts-left{
+        gap:10px;
+        flex-direction: row;
+        margin:auto;
+    }
+    .relatedproducts-img-list{
+        flex-direction: column;
+        gap:8px;
+    }
+    .relatedproducts-img-list img{
+        height:75px;
+    }
+    .relatedproducts-main-img{
+        height:330px;
+    }
+    .relatedproducts-right{
+        margin:5px;
+    }
+    .relatedproducts-right h1{
+        font-size:18px;
+    }
+    .relatedproducts-right-stars img{
+        width:15px;
+    }
+    .relatedproducts-right-description{
+        font-size:10px;
+    }
+    .relatedproducts-right-sizes{
+        gap:10px;
+        margin:20px 0px;
+    }
+    .relatedproducts-right-sizes div{
+        padding:10px 16px;
+        font-size:14px;
+    }
+    .relatedproducts-right button{
+        width:130px;
+        font-size:15px;
+        padding:12px 0px;
+    }
+    .relatedproducts-right-category{
+        font-size:12px;
+    }
+
+    
+
 }

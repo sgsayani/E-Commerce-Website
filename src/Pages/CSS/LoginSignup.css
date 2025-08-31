@@ -100,6 +100,10 @@
         font-size:16px;
     }
     .loginsignup-agree{
+        font-size:12px;
+        gap:10px;
+    }
+      .loginsignup-agree p{
         font-size:14px;
         gap:10px;
     }
